@@ -13,6 +13,6 @@ document.querySelector('.login-form').addEventListener('submit', function(event)
         localStorage.setItem('loginTimestamp', new Date().getTime()); // Salva o timestamp atual
 
         alert('Login realizado com sucesso! Redirecionando...');
-        window.location.href = 'index.html'; // Redireciona para a página inicial após o login
+        window.location.href = 'home.html'; // Redireciona para a página inicial após o login
     }
 });
