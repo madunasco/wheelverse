@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>Contato - Catálogo de colecionáveis</title>
+</head>
+<body>
+    
+    <!--Cabeçalho-->
+    <div id="header"></div>
+
+    <main class="contato-page">
+        <section class="contato-container">
+            <h1>Fale conosco</h1>
+            <p>Prefere falar direto? Envie um e-mail para <a href="mailto:contato@seudominio.com">contato@seudominio.com</a> ou use o formulário abaixo.</p>
+
+            <form action="mailto:contato@seudominio.com" method="post" enctype="text/plain" class="contato-form">
+                <label for="nome">Nome</label>
+                <input id="nome" name="Nome" type="text" required>
+
+                <label for="email">E-mail</label>
+                <input id="email" name="Email" type="email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="Mensagem" rows="6" required></textarea>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn comprar">Enviar</button>
+                    <button type="reset" class="btn trocar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-simple" style="margin-top: 200px;">
+        <p>© 2025 • Sua galeria de Colecionáveis</p>
+        <p>Itens selecionados com carinho para apaixonados por action figures, cards e miniaturas.</p>
+        <p>Obrigado por visitar nossa coleção!</p>
+    </footer>
+
+    <script src="./javascript/header.js"></script>
+</body>
+</html>
